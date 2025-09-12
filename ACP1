@@ -2,10 +2,10 @@
     <head>
         <title>My First ACP</title>
     </head>
-    <body>
-        <font face=Fantasy>All About Me</font>
-        <hr><font face=Garamond>Welcome to my Website!
-        <br>My name is XY
+    <body bgcolor="#87DEF4">
+        <font face=Fantasy size="5">All About Me</font>
+        <hr><font face=Garamond color="#E034A5" size="3">Welcome to my Website!
+        <br>My name is XYZ
         </font>
     </body>
 </html>
