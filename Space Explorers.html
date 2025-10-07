@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body{
+            font-family: serif;
+            background-color: black;
+            color: aliceblue;
+        }
+
+        p{
+            text-align: center;
+        }
+
+        /*Pseudo Classes*/
+        a:hover{
+            color:aquamarine
+        }
+
+        h1{
+            color: rgb(240, 255, 243);
+            text-align: center;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        /*Child Selector*/
+        ul > li{
+            font-weight: bold;
+        }
+
+        #x{
+            background-color: rgb(183, 0, 255);
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        ul li:hover{
+            background-color: rgb(75, 133, 9);
+        }
+
+        ul li:nth-child(1){
+            color: aqua;
+        }
+
+        p:not(:first-of-type){
+            text-decoration: underline;
+        }
+        
+        ul li::before{
+            content:"🚀";
+        }
+
+        a::after{
+            content:"☄️";
+        }
+
+        a{
+            color: bisque;
+        }
+
+        p::first-letter{
+            font-size: 200%;
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Space Station</h1>
+    <ul>
+        <li>Mars Rovers</li>
+        <li>International Space Stations</li>
+        <li>Telescopes and Stars</li>
+    </ul>
+    <p>Space Exploration has always captivated human imaginations</p>
+    <p id="x">It ia a journey to the unknown.</p>
+    <a href="#">Join you mission</a><br>
+    <a href="#">Latest Space News</a><br>
+    <a href="#">Gallery of the Universe</a>
+</body>
+</html>
