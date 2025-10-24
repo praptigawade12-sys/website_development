@@ -1,0 +1,23 @@
+section {
+  background-color: #fff;
+  border: 2px solid #d2b48c;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin: 0 5px;
+  transition: background 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: white;
+  color: #b22222;
+}
